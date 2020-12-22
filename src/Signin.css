@@ -1,0 +1,38 @@
+.signin-form{
+    display:grid;
+    place-items:center;
+    width:100%;
+    height:100vh;
+    background-color:#f8f8f8;
+}
+.container{
+    height:70vh;
+    width:60%;
+    background-color:black;
+    border-radius:10px;
+    box-shadow:0 1px 3px rgba(0,0,0,0.12) ,0 1px 2px rgba(0,0,0,0.24);
+    background-color:white;
+}
+.container>.image-item{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    object-fit:contain;
+    height:200px;
+    margin-bottom:90px;
+
+}
+.btn-item{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+}
+button{
+text-transform:inherit !important;
+background-color:#0a8d48 !important;
+color:white;
+padding:20px;
+border-radius:10px;
+cursor:pointer;
+}
